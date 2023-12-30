@@ -1,0 +1,27 @@
+.logo {
+    width: 50%;
+}
+.menu-bar {
+   align-items: center;
+   justify-content: flex-end;
+   width: 50%;
+}
+/* nav a{
+    content: "\20";
+    display: block;
+}
+a.menu::after {
+}
+a.active::after {
+    border-width: 2px;
+} */
+.container.flex {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container.flex > .post {
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+
