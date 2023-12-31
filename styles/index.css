@@ -25,3 +25,10 @@ a.active::after {
     margin: 15px;
 }
 
+.footer-wrapper {
+    background-color: #f2f2f2;
+}
+.footer-wrapper .footer-links a {
+    margin-left: 10px;
+}
+

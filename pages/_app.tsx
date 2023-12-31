@@ -4,6 +4,7 @@ import './../styles/index.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import { Auth0Provider } from '@auth0/auth0-react'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
@@ -26,6 +27,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <main className="py-14">
         <Component {...pageProps} />
       </main>
+
+      <Footer />
     </Auth0Provider>
   )
 }
